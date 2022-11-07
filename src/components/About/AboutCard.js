@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { AiFillCustomerService } from "react-icons/ai";
+import { MdSkateboarding } from "react-icons/md";
+import { BiGame } from "react-icons/bi";
 
 function AboutCard() {
   return (
@@ -8,29 +10,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            Hi Everyone, I am <span className="purple">Rudy Quinternet </span>
+            from <span className="purple"> Paris, France.</span>
+            <br />I am a junior dev with a brilliant future (says my mom).
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <AiFillCustomerService size={"35px"}/> Music
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <MdSkateboarding size={"35px"}/> Skateboard
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <BiGame size={"35px"}/> Video games
             </li>
           </ul>
 
+            <br />
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Do not be affraid to strive building great things and make the difference!"{" "}
           </p>
+            <br />
           <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
