@@ -32,9 +32,9 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/folio" element={<Home />} />
+          <Route path="/folio/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="*" element={<Navigate to="/folio"/>} />
+          <Route path="*" element={<Navigate to="/folio/"/>} />
         </Routes>
       </div>
     </Router>
