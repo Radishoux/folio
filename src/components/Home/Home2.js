@@ -47,6 +47,18 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and Electron.js</b>
               </i>
+              <br />
+              <br />
+              feel free to
+              <i>
+                <b className="purple"> Contact me </b>
+              </i>
+              via :
+              <br />
+              <br />
+              phone : +336 49 38 10 75
+              <br />
+              email : rudy.quinternet@gmail.com
             </p>
           </Col>
           <Col md={4} className="myAvtar">
