@@ -6,14 +6,6 @@
   <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
-<br/>
-
-<p align="center">
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-</p align="center">
-
 ## Built With
 
 My personal page <a href="http://rudyquinternet.com/" target="_blank">rudyquinternet.com</a> which features some informations about myself<br/>
