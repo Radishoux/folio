@@ -6,9 +6,9 @@
   <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
+My personal page <a href="http://rudyquinternet.com/" target="_blank">rudyquinternet.com</a> which features some informations about myself<br/>
 ## Built With
 
-My personal page <a href="http://rudyquinternet.com/" target="_blank">rudyquinternet.com</a> which features some informations about myself<br/>
 
 This project was built using these technologies.
 

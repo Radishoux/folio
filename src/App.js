@@ -5,11 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import {
   BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
 } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -30,12 +26,8 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/folio/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<Navigate to="/folio/"/>} />
-        </Routes>
+        <Home />
+        <About />
       </div>
     </Router>
   );

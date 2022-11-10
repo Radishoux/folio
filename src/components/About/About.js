@@ -6,6 +6,15 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import logoReact from "../../Assets/logo-react.png";
+import logoElectron from "../../Assets/logo-electron.png";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
 
 function About() {
   return (
@@ -21,9 +30,6 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I</strong> Am
-            </h1>
             <Aboutcard />
           </Col>
           <Col
@@ -46,6 +52,43 @@ function About() {
         <Toolstack />
 
         <Github />
+        <Row>
+          <Col md={12} className="home-about-social">
+          <h2><img src={logoReact} className="img-fluid logo"/>FOLLOW ME ON<img src={logoElectron} className="img-fluid logoE"/></h2>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/Radishoux"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/rudy-quinternet/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/radishoux/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
