@@ -51,7 +51,6 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
         <Row>
           <Col md={12} className="home-about-social">
           <h2><img src={logoReact} className="img-fluid logo"/>FOLLOW ME ON<img src={logoElectron} className="img-fluid logoE"/></h2>
@@ -74,16 +73,6 @@ function About() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/radishoux/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

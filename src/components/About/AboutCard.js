@@ -30,7 +30,7 @@ function AboutCard() {
 
             <br />
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Do not be affraid to strive building great things and make the difference!"{" "}
+            "Do not be affraid to build great things and make the difference!"{" "}
           </p>
             <br />
           <footer className="blockquote-footer">Soumyajit</footer>
