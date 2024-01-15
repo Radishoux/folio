@@ -45,7 +45,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 href="https://radishoux.github.io/projects"
-                target="_blank"
                 rel="noreferrer"
               >
                 <AiOutlineFundProjectionScreen
