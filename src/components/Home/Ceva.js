@@ -1,16 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import logo from "../../Assets/ceva.png";
 import Tilt from "react-parallax-tilt";
 
-function Home2() {
+function Ceva() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <p className="home-about-body">
-              I fell in love with optimisation at 18 and now it's pretty much all i think about
+              I fell in love with optimisation and now it's pretty much all i think about
               <br />I am fluent in classics like
               <i>
                 <b className="purple"> React, Javascript and Typescript. </b>
@@ -50,7 +50,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={logo} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -58,4 +58,4 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+export default Ceva;

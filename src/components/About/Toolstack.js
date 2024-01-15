@@ -4,7 +4,6 @@ import {
   SiPowershell,
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
   SiGithub,
 } from "react-icons/si";
 import { FiChrome } from "react-icons/fi";

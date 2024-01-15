@@ -37,6 +37,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
@@ -44,13 +45,14 @@ function About() {
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong> I use daily
         </h1>
+
         <Toolstack />
 
         <Row>
           <Col md={12} className="home-about-social">
-          <h2><img src={logoReact} className="img-fluid logo"/>FOLLOW ME ON<img src={logoElectron} className="img-fluid logoE"/></h2>
+          <h2><img alt="" src={logoReact} className="img-fluid logo"/>FOLLOW ME ON<img alt="" src={logoElectron} className="img-fluid logoE"/></h2>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

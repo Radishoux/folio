@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
+import Thales from "./Thales";
+import Ceva from "./Ceva";
+import Freelance from "./Freelance";
 import Type from "./Type";
 
 function Home() {
@@ -42,6 +45,14 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+
+      <h1 className="project-heading">
+        Main <strong className="purple">Experiences </strong>
+      </h1>
+
+      <Thales />
+      <Ceva />
+      <Freelance />
     </section>
   );
 }
