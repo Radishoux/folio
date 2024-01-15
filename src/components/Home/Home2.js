@@ -12,40 +12,20 @@ function Home2() {
             <p className="home-about-body">
               I fell in love with optimisation at 18 and now it's pretty much all i think about
               <br />I am fluent in classics like
-              <i>
                 <b className="purple"> React, Javascript and Typescript. </b>
-              </i>
               <br />
               I like reworking old Techs to turn them into
-              <i>
-                <b className="purple"> Modern New Web Technologies and Products </b>
-              </i>
+                <b className="purple"> Modern Web Technologies </b> and  <b className="purple"> Products </b>
               <br />
               <br />
-              I love developing optimised products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Libraries and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Electron.js</b>
-              </i>
+              I love developing optimised products and working with <b className="purple"> Modern technologies </b><br/>
+              such as : <b className="purple"> React.js, Angular, AWS, Mongo...</b>
+              <br /><br />
+              feel free to <b className="purple"> Contact me </b> via :
+              <br /><br />
+              <b className="purple">phone</b> : +336 49 38 10 75
               <br />
-              <br />
-              feel free to
-              <i>
-                <b className="purple"> Contact me </b>
-              </i>
-              via :
-              <br />
-              <br />
-              phone : +336 49 38 10 75
-              <br />
-              email : rudy.quinternet@gmail.com
+              <b className="purple">email</b> : rudy.quinternet@gmail.com
             </p>
           </Col>
           <Col md={4} className="myAvtar">

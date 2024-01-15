@@ -53,6 +53,9 @@ function Home() {
       <Thales />
       <Ceva />
       <Freelance />
+      <br></br>
+      <br></br>
+      <br></br>
     </section>
   );
 }

@@ -10,47 +10,19 @@ function Ceva() {
         <Row>
           <Col md={8} className="home-about-description">
             <p className="home-about-body">
-              I fell in love with optimisation and now it's pretty much all i think about
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> React, Javascript and Typescript. </b>
-              </i>
-              <br />
-              I like reworking old Techs to turn them into
-              <i>
-                <b className="purple"> Modern New Web Technologies and Products </b>
-              </i>
-              <br />
-              <br />
-              I love developing optimised products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Libraries and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Electron.js</b>
-              </i>
-              <br />
-              <br />
-              feel free to
-              <i>
-                <b className="purple"> Contact me </b>
-              </i>
-              via :
-              <br />
-              <br />
-              phone : +336 49 38 10 75
-              <br />
-              email : rudy.quinternet@gmail.com
+              At <b className="purple">CEVA</b>, <br/>
+              I played a pivotal role as a <b className="purple">Full-stack Developer</b>, <br/>
+              where I initially started building a <b className="purple">Flutter</b> application to enhance container logistics monitoring.<br/><br/>
+              I ended up evolving to a more <b className="purple">full-stack/devops/backend </b> position.<br/>
+              Discovering myself a passion for <b className="purple">microservices architectures </b> and <b className="purple"> cloud computing</b>.<br/><br/>
+              Using powerful modern technologies such as <b className="purple">AWS, Docker, Kubernetes, Node.js, Angular, Flutter, Mongo</b> and many more.<br/><br/>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={logo} className="img-fluid" alt="avatar" />
+              <a href="https://en.wikipedia.org/wiki/CEVA_Logistics">
+                <img src={logo} className="img_fluid" alt="Ceva" height={"300px"}/>
+              </a>
             </Tilt>
           </Col>
         </Row>
