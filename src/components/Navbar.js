@@ -63,6 +63,29 @@ function NavBar() {
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://s3.eu-west-3.amazonaws.com/rudyquinternet.com/rudy_cv_fr.pdf"
+                rel="noreferrer"
+                target="_blank"
+              >
+                {" "}
+                CV
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://s3.eu-west-3.amazonaws.com/rudyquinternet.com/rudy_cv_en.pdf"
+                rel="noreferrer"
+                target="_blank"
+              >
+                {" "}
+                Resume
+              </Nav.Link>
+            </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
