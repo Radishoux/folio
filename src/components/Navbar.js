@@ -5,8 +5,8 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import {
   AiFillStar,
-  AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
+import { FaRegFilePdf } from "react-icons/fa6";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -42,7 +42,7 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://radishoux.github.io/projects"
                 rel="noreferrer"
@@ -52,7 +52,7 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
@@ -70,6 +70,9 @@ function NavBar() {
                 rel="noreferrer"
                 target="_blank"
               >
+                <FaRegFilePdf
+                  style={{ marginBottom: "2px" }}
+                />
                 {" "}
                 CV/Resume
               </Nav.Link>
