@@ -7,6 +7,7 @@ import {
   AiFillStar,
 } from "react-icons/ai";
 import { FaRegFilePdf } from "react-icons/fa6";
+import { FaCalendarCheck } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -75,6 +76,20 @@ function NavBar() {
                 />
                 {" "}
                 CV/Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://calendar.app.google/vDrZT2Z288dW4tmN8"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaCalendarCheck
+                  style={{ marginBottom: "2px" }}
+                />
+                {" "}
+                Calendar
               </Nav.Link>
             </Nav.Item>
 
