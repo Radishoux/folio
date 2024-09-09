@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Thales from "./Thales";
 import Ceva from "./Ceva";
+import Alten from "./Alten";
 import Freelance from "./Freelance";
 import Type from "./Type";
 
@@ -49,7 +50,7 @@ function Home() {
       <h1 className="project-heading">
         Main <strong className="purple">Experiences </strong>
       </h1>
-
+      <Alten />
       <Thales />
       <Ceva />
       <Freelance />

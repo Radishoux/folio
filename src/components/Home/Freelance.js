@@ -12,8 +12,8 @@ function Freelance() {
             <p className="home-about-body">
             As a <b className="purple">Freelance</b>, <br/>
             I have worked on multiple projects for a lot of clients, <br/>
-            ranging from local businesses like <b className="purple">restaurants</b> and <b className="purple">startups</b> to <b className="purple"> big companies </b> and even <b className="purple">Schools</b>.<br/><br/>
-            I have worked on a lot of different projects, <br/> and also notably ended up teaching <b className="purple">Web Development</b> and good practices to <b className="purple">students</b> at <b className="purple">Epitech</b>.<br/><br/>
+            ranging from local businesses like <b className="purple">restaurants</b> and <b className="purple">startups</b> to <b className="purple"> big companies</b>,<b className="purple"> hospitals </b> and <b className="purple">Schools</b>.<br/><br/>
+            I have worked on a lot of different projects, <br/> and also notably ended up teaching <b className="purple">Web Development</b> and good practices to <b className="purple">engineering students</b>.<br/><br/>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
