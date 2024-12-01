@@ -12,6 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);
+  const [language, updateLanguage] = useState("en");
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -25,9 +26,9 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
-        <Home />
-        <About />
+        <Navbar lang={language} updateLanguage={updateLanguage}/>
+        <Home lang={language} />
+        <About lang={language} />
       </div>
     </Router>
   );

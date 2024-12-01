@@ -8,8 +8,10 @@ import {
 } from "react-icons/ai";
 import { FaRegFilePdf } from "react-icons/fa6";
 import { FaCalendarCheck } from "react-icons/fa";
+import Switch from "react-switch";
 
-function NavBar() {
+
+function NavBar({ lang, updateLanguage }) {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -67,13 +69,11 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://s3.eu-west-3.amazonaws.com/rudyquinternet.com/Rudy_cv.pdf"
+                href={lang === "en" ? "https://s3.eu-west-3.amazonaws.com/rudyquinternet.com/Rudy_cv.pdf" : "https://s3.eu-west-3.amazonaws.com/rudyquinternet.com/cv_Rudy.pdf"}
                 rel="noreferrer"
                 target="_blank"
               >
-                <FaRegFilePdf
-                  style={{ marginBottom: "2px" }}
-                />
+                <FaRegFilePdf style={{ marginBottom: "2px" }} />
                 {" "}
                 CV/Resume
               </Nav.Link>
@@ -90,6 +90,25 @@ function NavBar() {
                 />
                 {" "}
                 Calendar
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link>
+                EN
+                {" "}
+                <Switch
+                  onChange={() => {
+                    updateLanguage(lang === "en" ? "fr" : "en");
+                  }}
+                  checked={lang === "fr"}
+                  offColor="#888"
+                  onColor="#6a0dad"
+                  uncheckedIcon={<div style={{}}>💂</div>}
+                  checkedIcon={<div style={{}}>🥐</div>}
+                />
+                {" "}
+                FR
               </Nav.Link>
             </Nav.Item>
 

@@ -13,20 +13,26 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 
-function About() {
+function About({lang}) {
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
 
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+      <h1 className="project-heading">
+          {lang === "en" ? "Professional" : "Compétences"}{" "}
+          <strong className="purple">
+            {lang === "en" ? "Skillset" : "Professionnelles"}
+          </strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use daily
+          <strong className="purple">
+            {lang === "en" ? "Tools" : "Outils"}
+          </strong>{" "}
+          {lang === "en" ? "I use daily" : "que j'utilise quotidiennement"}
         </h1>
 
         <Toolstack />
@@ -50,9 +56,14 @@ function About() {
           </Col>
         </Row>
 
+
         <Row>
           <Col md={12} className="home-about-social">
-          <h2><img alt="" src={logoReact} className="img-fluid logo"/>FOLLOW ME ON<img alt="" src={logoElectron} className="img-fluid logoE"/></h2>
+            <h2>
+              <img alt="" src={logoReact} className="img-fluid logo" />
+              {lang === "en" ? "FOLLOW ME ON" : "SUIVEZ-MOI SUR"}
+              <img alt="" src={logoElectron} className="img-fluid logoE" />
+            </h2>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

@@ -9,7 +9,7 @@ import Alten from "./Alten";
 import Freelance from "./Freelance";
 import Type from "./Type";
 
-function Home() {
+function Home({ lang }) {
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -18,19 +18,19 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                {lang === "en" ? "Hi There!" : "Bonjour!"}{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I Am
+                {lang === "en" ? "I Am" : "Je suis"}
                 <strong className="main-name"> Rudy Quinternet</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+                <Type lang={lang} />
               </div>
             </Col>
 
@@ -45,15 +45,18 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Home2 lang={lang} />
 
       <h1 className="project-heading">
-        Main <strong className="purple">Experiences </strong>
+        {lang === "en" ? "Main" : "Principales"}{" "}
+        <strong className="purple">
+          {lang === "en" ? "Experiences" : "Expériences"}
+        </strong>
       </h1>
-      <Alten />
-      <Thales />
-      <Ceva />
-      <Freelance />
+      <Alten lang={lang} />
+      <Thales lang={lang} />
+      <Ceva lang={lang} />
+      <Freelance lang={lang} />
       <br></br>
       <br></br>
       <br></br>
