@@ -45,7 +45,7 @@ function About({lang}) {
               paddingBottom: "50px",
             }}
           >
-            <Aboutcard />
+            <Aboutcard lang={lang}/>
           </Col>
           <Col
             md={5}
